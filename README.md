@@ -110,25 +110,3 @@ Dialect-Adaptation/
 │
 └── README.md
 ```
-
----
-
-## Reproducing Experiments
-
-### Dataset Construction
-
-```bash
-python data_creation/build_curriculum_datasets.py
-```
-
-### Training
-
-```bash
-python fine_tuning/train.py
-```
-
-### Evaluation
-
-```bash
-python evaluation/evaluation_curriculum/evaluate.py
-```
