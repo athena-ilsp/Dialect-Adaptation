@@ -182,5 +182,5 @@ for stage in STAGES:
     del model
     torch.cuda.empty_cache()
 
-print("\n🏁 3-Stage ASR Curriculum COMPLETED!")
+print(" 3-Stage ASR Curriculum COMPLETED!")
 
