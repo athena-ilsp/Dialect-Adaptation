@@ -119,8 +119,8 @@ for stage in STAGES:
 
     params = get_stage_params(stage)
 
-    print(f"\n🚀 TRAINING STAGE {stage}")
-    print(f"📈 LR={params['lr']} | Epochs={params['epochs']}")
+    print(f" TRAINING STAGE {stage}")
+    print(f" LR={params['lr']} | Epochs={params['epochs']}")
 
     model = WhisperForConditionalGeneration.from_pretrained(
         current_model_path,
@@ -154,8 +154,8 @@ for stage in STAGES:
         fp16=FP16,
         logging_steps=50,
         save_steps=500,
-        save_strategy="steps",     # ✅ Save every epoch
-        save_total_limit=2,        # ✅ Keep only 2 checkpoints
+        save_strategy="steps",    
+        save_total_limit=2,        
         save_safetensors=True,
 
         remove_unused_columns=False,
