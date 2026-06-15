@@ -15,10 +15,10 @@ from tqdm import tqdm
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-BASE_MODEL = "/leonardo_work/EUHPC_D23_153/antyklimi_data/whisper_models/whisper-large-v3"
+BASE_MODEL = "/leonardo_work/EUHPC_D19_095/antyklimi_data/whisper_models/whisper-large-v3"
 
-CHECKPOINT = "/leonardo_work/EUHPC_D23_153/antyklimi_runs/whisper_large_bimodal/stage_3/checkpoint-1000"
-DATASET_PATH = "/leonardo_work/EUHPC_D23_153/antyklimi_data/hf_datasets/cy_normalized"
+CHECKPOINT = "/leonardo_work/EUHPC_D19_095/antyklimi_runs/whisper_large_bimodal/stage_3/checkpoint-1000"
+DATASET_PATH = "/leonardo_work/EUHPC_D19_095/antyklimi_data/hf_datasets/cy_normalized"
 
 # =====================================================
 # LOAD DATASET
