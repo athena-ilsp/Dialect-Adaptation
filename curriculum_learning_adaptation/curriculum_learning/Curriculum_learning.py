@@ -17,8 +17,8 @@ from typing import Any, Dict, List, Union
 # PATHS (LEONARDO)
 # ============================================================
 
-MODEL_ROOT = "/leonardo_work/EUHPC_D23_153/antyklimi_data/whisper_models/whisper-large-v3"
-CURRICULUM_ROOT = "/leonardo_work/EUHPC_D23_153/antyklimi_data/cypriot_curriculum/exp4_balanced"
+MODEL_ROOT = "/leonardo_work/EUHPC_D19_095/antyklimi_data/whisper_models/whisper-large-v3"
+CURRICULUM_ROOT = "/leonardo_work/EUHPC_D19_095/antyklimi_data/cypriot_curriculum/exp4_balanced"
 
 OUTPUT_ROOT = "/leonardo_work/EUHPC_D23_153/antyklimi_data/experiments/cypriot_largev3_exp4_balanced"
 
