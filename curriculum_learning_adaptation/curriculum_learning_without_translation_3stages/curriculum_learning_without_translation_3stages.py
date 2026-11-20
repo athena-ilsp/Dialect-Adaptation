@@ -17,9 +17,9 @@ from typing import Any, Dict, List, Union
 # PATHS (LEONARDO)
 # ============================================================
 
-MODEL_ROOT = "/leonardo_work/EUHPC_D19_095/antyklimi_data/whisper_models/whisper-large-v3"
-CURRICULUM_ROOT = "/leonardo_work/EUHPC_D19_095/antyklimi_data/messenian_curriculum_2000/exp5_no_translation"
-OUTPUT_ROOT = "/leonardo_work/EUHPC_D19_095/antyklimi_data/experiments/0messenian_largev3_exp5_no_translation"
+MODEL_ROOT = "/leonardo_work/EUHPC_D19_095/whisper_models/whisper-large-v3"
+CURRICULUM_ROOT = "/leonardo_work/EUHPC_D19_095/messenian_curriculum_2000/exp5_no_translation"
+OUTPUT_ROOT = "/leonardo_work/EUHPC_D19_095/experiments/0messenian_largev3_exp5_no_translation"
 
 os.makedirs(OUTPUT_ROOT, exist_ok=True)
 
