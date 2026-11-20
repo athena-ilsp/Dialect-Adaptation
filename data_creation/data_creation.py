@@ -6,8 +6,8 @@ from datasets import load_from_disk, concatenate_datasets
 # CONFIG
 # ============================================================
 
-RAW_ROOT = "/nfs1/antyklimi/dialects/data/raw_cretan"
-OUT_ROOT = "/nfs1/antyklimi/dialects/data/curriculum_cretan"
+RAW_ROOT = "/nfs1/dialects/data/raw_cretan"
+OUT_ROOT = "/nfs1/dialects/data/curriculum_cretan"
 
 SAMPLES_PER_STAGE = 8000
 SEED = 42
